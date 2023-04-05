@@ -28,18 +28,18 @@ header div.container{
 nav{
     width: 250px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-right: 50px;
 }
 
 div.container{
-    width: 1000px;
+    width: 1152px;
     margin: 0 auto;
 }
 
 div.personal-info div.container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -58,7 +58,18 @@ div.personal-info p{
     margin: 40px 0;
 }
 
-div.personal-info button{
+div.personal-info div.info{
+    width: 60%;
+}
+
+div.personal-image img{
+    border-radius: 100%;
+    width: 250px;
+	height: 250px;
+}
+
+
+div.info button{
     font-family: Heebo, sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -177,17 +188,4 @@ div.featured-works hr{
 
 div.featured-works div.works{
     margin-top: 40px;
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0;
-}
-
-footer div.images{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
 }
